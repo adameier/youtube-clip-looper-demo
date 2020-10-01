@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="src/styles.css" />
+  </head>
+
+  <body>
+    <div id="app">
+      <div>
+        <div id="youtubePlayer" />
+      </div>
+      <div class="inputs-wrapper">
+        <div class="input-block">
+          <label for="start">Start</label>
+          <input
+            id="start"
+            type="number"
+            step="any"
+            placeholder="0.0"
+            min="0"
+          />
+        </div>
+        <div class="input-block">
+          <label for="end">End</label>
+          <input id="end" type="number" step="any" placeholder="0.0" min="0" />
+        </div>
+      </div>
+      <div class="button-wrapper">
+        <button id="loop" disabled="true">LOOP</button>
+      </div>
+    </div>
+
+    <script src="src/index.js"></script>
+  </body>
+</html>
